@@ -17,6 +17,8 @@ configuración en el proyecto.
 
 <span style="color: #RRGGBB;">R: se deja en la App.jsx, tal cual se solicita, pero  se deja la ruta  “/pizza”, ya que me deja un error 404.</span>
 
+<span style="color: green"> Some green text </span>
+
 4. Implementa un componente NotFound que se muestre cuando una ruta no exista.
 Utiliza tu creatividad para esta página, pero debe contener un enlace que redirija a la
 ruta “/”.
