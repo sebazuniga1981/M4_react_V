@@ -1,8 +1,8 @@
 import Button from 'react-bootstrap/Button';
-import{Link} from "react-router-dom"
+import{Link, NavLink} from "react-router-dom"
 
 
-const Navbar = () => {
+const Navigation = () => {
     const total = 25000
     const token = false
     return (
@@ -28,7 +28,7 @@ const Navbar = () => {
                 Pizzeria Mamma Mia!
             </p>
             <Button
-            as={Link}
+            as={NavLink}
                 to="/"
                 variant="outline-light"
                 style={{ backgroundColor: "black", color: "white", border: "none" }}
@@ -36,16 +36,16 @@ const Navbar = () => {
                 🍕 Home
             </Button>
              <Button
-            as={Link}
-                to="/Cart"
+            as={NavLink}
+                to="/cart"
                 variant="outline-light"
                 style={{ backgroundColor: "black", color: "white", border: "none" }}
             >
                 🛒 Carrito
             </Button>
             <Button
-            as={Link}
-                to="/Pizza"
+            as={NavLink}
+                to="/pizza"
                 variant="outline-light"
                 style={{ backgroundColor: "black", color: "white", border: "none" }}
             >
@@ -105,7 +105,6 @@ const Navbar = () => {
                     </Button>
                 </>
             )}
-            
 
 
                         {/* Total azul */}
@@ -122,4 +121,4 @@ const Navbar = () => {
         </div>
     );
 };
-export default Navbar;
+export default Navigation;

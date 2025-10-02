@@ -8,6 +8,7 @@ import LoginPage from './views/LoginPage';
 import Cart from "./views/Cart";
 import { Routes, Route } from "react-router-dom";
 import Pizza from './views/Pizza';
+import NotFound from './views/NotFound';
 
 function App() {
   return (
@@ -19,9 +20,8 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/cart" element={<Cart />} />
-        {/* Futuro */}
-        {/* <Route path="/profile" element={<Profile />} /> */}
-        {/* <Route path="*" element={<NotFound />} /> */}
+         <Route path="/profile" element={<Profile />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
