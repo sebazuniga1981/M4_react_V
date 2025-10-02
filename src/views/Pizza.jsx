@@ -1,14 +1,16 @@
 import {useState, useEffect} from "react"
 import CardPizza from "../components/CardPizza"
 
+
 const Pizza=()=>{
 const [pizza, setPizza]= useState(null)
 
 useEffect(() =>{
     const fetchPizza = async () =>{
         try{
-            const res = await fetch("http://localhost:5000/api/pizzas/p002")
+            const res = await fetch("http://localhost:5000/api/pizzas/p001")
             const data = await res.json()
+            console.log("✅ Datos recibidos desde la API:", data)
             setPizza(data)
         }
         catch (error){
