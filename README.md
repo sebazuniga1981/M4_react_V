@@ -46,5 +46,5 @@ autenticación.
 rutas anteriores (utilizando Link). Además, el botón "🛒 Total: $xxx" debe redirigir a la
 ruta “/cart”. (2 puntos)
 ```diff
-- R: R: deje las actuales, pero profile y 404 las deje sin link de naveacion en el Navigation.jsx " lo cambie por que me provocaba conflicto el nombre Navbar"
+- R: deje las actuales, pero profile y 404 las deje sin link de naveacion en el Navigation.jsx " lo cambie por que me provocaba conflicto el nombre Navbar"
 ``
