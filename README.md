@@ -20,8 +20,6 @@ configuración en el proyecto.
 <span style="color: green"> Some green text </span>
 ```diff
 - Esta es una línea de color rojo
-+ Esta es una línea de color verde
-@@ Esta es una línea de color púrpura @@
 ```
 4. Implementa un componente NotFound que se muestre cuando una ruta no exista.
 Utiliza tu creatividad para esta página, pero debe contener un enlace que redirija a la
